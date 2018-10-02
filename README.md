@@ -5,6 +5,12 @@ Installs dependencies and compiles OpenCV on a fresh Raspbian install.
 
 Heavily borrows from [these steps](https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/).
 
+> **Table of Contents**
+> 1. [Requirements](#requirements)
+> 2. [Preparations](#preparations)
+> 3. [Usage](#usage)
+> 4. [Cleanup](#cleanup)
+
 ## Requirements
 
 This branch assumes the following:
@@ -81,6 +87,14 @@ To use:
 1. After you've `ssh`'ed into your pi, run `tmux`. This creates a session.
 2. To detach from your session (and have it continue to run), press `Ctrl+B`, `D` (by default).
 3. To reattach to your session (e.g. when you've disconnected and reconnected your `ssh` connection), run `tmux a`.
+
+---
+
+## Usage
+
+```
+curl https://raw.githubusercontent.com/team-siklab/pi-camera-bootstrap/raspi-3b%2B/stretch/py3.5/opencv3.3/bootstrap.sh | sh
+```
 
 ---
 
