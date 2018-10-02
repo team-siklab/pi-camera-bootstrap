@@ -17,7 +17,7 @@ apt-get install -y \
   pkg-config
 
 # :: dependencies: image packages
-t-get install -y \
+apt-get install -y \
   libjpeg-dev \
   libtiff5-dev \
   libjasper-dev \
